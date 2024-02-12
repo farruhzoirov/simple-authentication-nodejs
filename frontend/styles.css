@@ -10,7 +10,15 @@ body {
 
 }
 
+.strong-text__wrapper {
+    text-align: center;
+    margin-top: 1rem;
+}
 
+.success-text {
+   display: none;
+   color: green;
+}
 
 
 .btr{
@@ -45,7 +53,7 @@ body {
 }
 
 .nav-pills .nav-link {
-      border-radius: 0px;
+      border-radius: 0;
       border-bottom: 1px solid #0d6efd40;
 
 }
@@ -79,3 +87,46 @@ body {
 
       margin-top: 20px;
 }
+header {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+}
+
+.port-container {
+      width: 100%;
+      max-width: 50rem;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+main {
+      font-size: 1.5rem;
+}
+
+.portfolio-inner {
+      display: flex;
+      align-items: center;
+}
+
+.user-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: darkblue;
+      margin-right: 3rem;
+}
+
+.portfolio-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+}
+
+.portfolio-main strong {
+      display: block;
+}
+
+h1 {
+      text-align: center;
+}
+

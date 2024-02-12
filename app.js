@@ -13,6 +13,7 @@ app.use(cors());
 
 app.use('/login', routes.checkUser);
 app.use('/sign-up', routes.createUser);
+app.use('/portfolio', routes.renderData)
 
 
 const PORT = process.env.PORT || 5000;
